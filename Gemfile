@@ -41,6 +41,11 @@ gem 'clearance'
 # Use Figaro to prevent private credentials from being uploaded to github etc
 gem 'figaro'
 
+# Add Authorisations gem
+gem 'omniauth'
+#Add Facebook authorisation gem
+gem 'omniauth-facebook'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
